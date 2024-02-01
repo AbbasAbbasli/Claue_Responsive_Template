@@ -1,0 +1,350 @@
+    @media only screen and (max-width:1400px) {
+        form {
+            flex-direction: column;
+        }
+        form button {
+            margin-top: 20px;
+        }
+    }
+    
+    @media only screen and (max-width:1200px) {
+        #header button {
+            display: inline-block;
+        }
+        #social {
+            display: none;
+        }
+        #navbar>ul>li:nth-child(1) {
+            display: none;
+        }
+        #navbar>ul>li:nth-child(2) {
+            display: none;
+        }
+        #navbar>ul>li:nth-child(3) {
+            display: none;
+        }
+        #navbar>ul>li:nth-child(5) {
+            display: none;
+        }
+        #navbar>ul>li:nth-child(6) {
+            display: none;
+        }
+        #shopping>a:nth-child(2) {
+            display: none;
+        }
+        #shopping>a:nth-child(3) {
+            display: none;
+        }
+        a#homepage {
+            display: inline-block;
+        }
+        #intro div {
+            width: 50%;
+            padding: 0px 0px 0px 20px;
+        }
+        #main>.container {
+            width: 940px;
+        }
+        #products>.container {
+            width: 960px;
+        }
+        #best-seller>.container {
+            width: 960px;
+        }
+        footer>.container {
+            width: 960px;
+        }
+        #box1 {
+            width: 455px;
+            height: 503px;
+        }
+        .section4 {
+            width: 455px;
+            height: 503px;
+        }
+        #box2 {
+            width: 212px;
+            height: 236px;
+        }
+        #box3 {
+            width: 212px;
+            height: 236px;
+        }
+        #box4 {
+            width: 455px;
+            height: 240px;
+        }
+        .box a:nth-child(2) {
+            top: 80%;
+        }
+        .productWrapper button {
+            padding: 0 17px;
+        }
+        #sales>.container {
+            width: 960px;
+        }
+        #sales>.container>.first {
+            width: 455px;
+            height: 240px;
+        }
+        #sales>.container>.second {
+            width: 455px;
+            height: 240px;
+        }
+        .footer-item {
+            padding: 0px 35px;
+        }
+        #our-services>.container {
+            justify-content: space-between;
+            width: 960px;
+        }
+        #blog>.container {
+            width: 960px;
+            justify-content: space-evenly;
+        }
+        #blog>.container>.blog {
+            width: 321px;
+            height: 358px;
+        }
+        #blog>.container>.blog:nth-child(3) {
+            display: none;
+        }
+    }
+    
+    @media only screen and (max-width:992px) {
+        #languages {
+            display: none;
+        }
+        #intro div {
+            width: 60%;
+            padding: 0px 0px 0px 20px;
+        }
+        #intro>div>p {
+            display: none;
+        }
+        #main>.container {
+            width: 715px;
+        }
+        #products>.container {
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            width: 720px;
+        }
+        #best-seller>.container {
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            width: 720px;
+        }
+        footer>.container {
+            width: 720px;
+        }
+        #box1 {
+            width: 345px;
+            height: 381px;
+        }
+        .section4 {
+            width: 345px;
+            height: 381px;
+        }
+        #box2 {
+            width: 157px;
+            height: 175px;
+        }
+        #box3 {
+            width: 157px;
+            height: 175px;
+        }
+        #box4 {
+            width: 345px;
+            height: 181px;
+        }
+        .box a:nth-child(2) {
+            top: 75%;
+            padding: 4px 24px;
+        }
+        .info-wrapper {
+            margin-bottom: 2%;
+        }
+        #sales>.container {
+            width: 720px;
+        }
+        #sales>.container>.first {
+            width: 345px;
+            height: 181px;
+        }
+        #sales>.container>.second {
+            width: 345px;
+            height: 181px;
+        }
+        .footer-item {
+            padding: 0px 10px;
+        }
+        #our-services>.container {
+            justify-content: space-between;
+            width: 720px;
+        }
+        #blog>.container {
+            justify-content: space-between;
+            flex-wrap: wrap;
+            width: 720px;
+        }
+    }
+    
+    @media only screen and (max-width:768px) {
+        #languages {
+            display: none;
+        }
+        #info {
+            display: none;
+        }
+        #contact {
+            justify-content: center;
+        }
+        #intro {
+            height: 40vh;
+        }
+        #intro>div>h5 {
+            display: none;
+        }
+        #intro>div>h2 {
+            font-size: 20px;
+        }
+        #main>.container {
+            width: 95%;
+        }
+        #products>.container {
+            width: 95%;
+        }
+        #best-seller>.container {
+            width: 95%;
+        }
+        .section1 {
+            width: 100%;
+            margin: 0px 0px 15px 0px
+        }
+        .section2 {
+            width: 100%;
+            flex-direction: column;
+            margin: 0px 0px 15px 0px
+        }
+        .section3 {
+            width: 100%;
+        }
+        .section4 {
+            width: 100%;
+            height: auto;
+        }
+        .categories {
+            flex-direction: column;
+            justify-content: center;
+        }
+        #box1 {
+            width: 100%;
+            height: auto;
+        }
+        #box2 {
+            width: 100%;
+            height: auto;
+            margin: 0px 0px 15px 0px
+        }
+        #box3 {
+            width: 100%;
+            height: auto;
+        }
+        #box4 {
+            width: 100%;
+            height: auto;
+        }
+        #box4 a:nth-child(2) {
+            top: 85%;
+        }
+        .box a:nth-child(2) {
+            top: 90%;
+            padding: 8px 50px;
+        }
+        .product {
+            width: 50%;
+        }
+        #products {
+            margin-top: 20px;
+            justify-content: center;
+        }
+        #products>.container {
+            width: 95%;
+            justify-content: space-evenly;
+        }
+        .product {
+            width: 42%;
+        }
+        .productWrapper {
+            width: 100%;
+        }
+        .productWrapper>a.first {
+            width: 100%;
+        }
+        #products a img {
+            width: 100%;
+        }
+        #best-seller {
+            margin-top: 20px;
+            justify-content: center;
+        }
+        #best-seller>.container {
+            width: 95%;
+            justify-content: space-evenly;
+        }
+        #best-seller a img {
+            width: 100%;
+        }
+        #products .info-wrapper h3::before {
+            display: none;
+        }
+        #products .info-wrapper h3:after {
+            left: 53.5%;
+            display: none;
+        }
+        .productWrapper button {
+            display: none;
+        }
+        #sales>.container {
+            flex-direction: column;
+            width: 100%;
+        }
+        footer>.container {
+            width: 95%;
+            margin: auto;
+        }
+        #sales>.container>.first {
+            width: 100%;
+            height: 100%;
+            padding: 0px 15px;
+        }
+        #sales>.container>.second {
+            width: 100%;
+            height: 100%;
+            padding: 0px 15px;
+        }
+        .footer-item {
+            padding: 0px;
+        }
+        #our-services>.container {
+            justify-content: space-between;
+            width: 100%;
+        }
+        #blog>.container {
+            width: 100%;
+        }
+    }
+    
+    @media only screen and (max-width:576px) {
+        #intro div {
+            width: 80%;
+            padding: 0px 0px 0px 20px;
+        }
+        #box4 a:nth-child(2) {
+            top: 77%;
+        }
+        .product {
+            width: 47%;
+        }
+    }
